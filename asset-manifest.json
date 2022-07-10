@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.71a7cc00.css",
+    "main.js": "/personal-portfolio/static/js/main.79a4d635.js",
+    "static/media/me-about.jpg": "/personal-portfolio/static/media/me-about.936a15faf09eb5c286af.jpg",
+    "static/media/MAHAVEER.jpg": "/personal-portfolio/static/media/MAHAVEER.697efb3e842b60ea7b5b.jpg",
+    "static/media/VAIBHAV.jpg": "/personal-portfolio/static/media/VAIBHAV.6049b1a91e277fac2b31.jpg",
+    "static/media/me.jpg": "/personal-portfolio/static/media/me.31e4852358e66940e7b6.jpg",
+    "static/media/cv.png": "/personal-portfolio/static/media/cv.c2499c6b2d4bc7ad1755.png",
+    "static/media/ARYAN.jpg": "/personal-portfolio/static/media/ARYAN.73d2e0254a60a6dcf4a7.jpg",
+    "static/media/sonu.jpg": "/personal-portfolio/static/media/sonu.1fd4de253f3bd6b89f9c.jpg",
+    "static/media/instakilo.png": "/personal-portfolio/static/media/instakilo.0ced6c9d53d0537f2650.png",
+    "static/media/learntime.png": "/personal-portfolio/static/media/learntime.cfa35f1082c2f9cea838.png",
+    "index.html": "/personal-portfolio/index.html",
+    "main.71a7cc00.css.map": "/personal-portfolio/static/css/main.71a7cc00.css.map",
+    "main.79a4d635.js.map": "/personal-portfolio/static/js/main.79a4d635.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71a7cc00.css",
+    "static/js/main.79a4d635.js"
+  ]
+}
