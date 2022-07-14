@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.2bfeba60.css",
+    "main.js": "/personal-portfolio/static/js/main.648bd9c9.js",
+    "static/media/me-about.jpg": "/personal-portfolio/static/media/me-about.936a15faf09eb5c286af.jpg",
+    "static/media/me.jpg": "/personal-portfolio/static/media/me.31e4852358e66940e7b6.jpg",
+    "static/media/instakilo.png": "/personal-portfolio/static/media/instakilo.0ced6c9d53d0537f2650.png",
+    "static/media/KHAILENDRA_PRASAD.pdf": "/personal-portfolio/static/media/KHAILENDRA_PRASAD.27ac5bcbd69aa5ed9d9b.pdf",
+    "static/media/learntime.png": "/personal-portfolio/static/media/learntime.cfa35f1082c2f9cea838.png",
+    "index.html": "/personal-portfolio/index.html",
+    "main.2bfeba60.css.map": "/personal-portfolio/static/css/main.2bfeba60.css.map",
+    "main.648bd9c9.js.map": "/personal-portfolio/static/js/main.648bd9c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2bfeba60.css",
+    "static/js/main.648bd9c9.js"
+  ]
+}
