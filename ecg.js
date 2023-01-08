@@ -74,7 +74,7 @@ script.innerHTML = [
                 if (this.readyState == 4 && this.status == 200) {
                     data = this.responseText;
                     console.log("first data "+data);
-                }
+                
             
             for (var j = 0; j < count; j++) {	
                 yVal = yVal + Math.round(5 + parseInt(data) *(-5-5));
