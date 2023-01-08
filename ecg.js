@@ -88,6 +88,7 @@ script.innerHTML = [
                 dps.shift();
             }
             console.log("second data "+data);
+                 }
             };
             chart.render();
             xhttp.open("GET", "readTemperature", true);
