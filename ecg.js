@@ -67,7 +67,7 @@ script.innerHTML = [
         
         var updateChart = function (count) {
             count = count || 1;
-            const data;
+            var data;
             // count is number of times loop runs to generate random dataPoints.
             var xhttp = new XMLHttpRequest();
             xhttp.onreadystatechange = function() {
