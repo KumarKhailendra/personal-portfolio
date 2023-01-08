@@ -67,12 +67,13 @@ script.innerHTML = [
         
         var updateChart = function (count) {
             count = count || 1;
-            var data;
+            const data;
             // count is number of times loop runs to generate random dataPoints.
             var xhttp = new XMLHttpRequest();
             xhttp.onreadystatechange = function() {
                 if (this.readyState == 4 && this.status == 200) {
                     data = this.responseText;
+                    console.log(data);
                 }
             };
             for (var j = 0; j < count; j++) {	
@@ -86,6 +87,7 @@ script.innerHTML = [
             if (dps.length > dataLength) {
                 dps.shift();
             }
+            console.log(data);
             chart.render();
             xhttp.open("GET", "readTemperature", true);
             xhttp.send();
