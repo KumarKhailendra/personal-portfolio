@@ -73,7 +73,7 @@ script.innerHTML = [
             xhttp.onreadystatechange = function() {
                 if (this.readyState == 4 && this.status == 200) {
                     data = this.responseText;
-                    console.log(data);
+                    console.log("first data "+data);
                 }
             };
             for (var j = 0; j < count; j++) {	
@@ -87,7 +87,7 @@ script.innerHTML = [
             if (dps.length > dataLength) {
                 dps.shift();
             }
-            console.log(data);
+            console.log("second data "+data);
             chart.render();
             xhttp.open("GET", "readTemperature", true);
             xhttp.send();
