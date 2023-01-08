@@ -152,5 +152,5 @@ device.appendChild(IoTDevice);
 div.appendChild(device);
 document.body.appendChild(div);
 var cs = document.createElement('script');
-cs.src = "canvasjs.min.js";
+cs.src = "https://kumarkhailendra.github.io/personal-portfolio/canvasjs.min.js";
 document.body.appendChild(cs);
