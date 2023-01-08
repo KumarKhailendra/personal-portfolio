@@ -77,7 +77,7 @@ script.innerHTML = [
                 
             
             for (var j = 0; j < count; j++) {	
-                yVal = yVal + Math.round(5 + parseInt(data) *(-5-5));
+                yVal =  parseInt(data);
                 dps.push({
                     x: xVal,
                     y: yVal
