@@ -75,7 +75,7 @@ script.innerHTML = [
                     data = this.responseText;
                     console.log("first data "+data);
                 }
-            };
+            
             for (var j = 0; j < count; j++) {	
                 yVal = yVal + Math.round(5 + data *(-5-5));
                 dps.push({
@@ -88,6 +88,7 @@ script.innerHTML = [
                 dps.shift();
             }
             console.log("second data "+data);
+            };
             chart.render();
             xhttp.open("GET", "readTemperature", true);
             xhttp.send();
