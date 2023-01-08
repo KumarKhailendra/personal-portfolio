@@ -73,25 +73,21 @@ script.innerHTML = [
             xhttp.onreadystatechange = function() {
                 if (this.readyState == 4 && this.status == 200) {
                     data = this.responseText;
-                    console.log("first data "+data);
-                
-            
-            for (var j = 0; j < count; j++) {	
-                yVal =  parseInt(data);
-                dps.push({
-                    x: xVal,
-                    y: yVal
-                });
-                xVal++;
-            }
-            if (dps.length > dataLength) {
-                dps.shift();
-            }
-            console.log("second data "+data);
+                    for (var j = 0; j < count; j++) {	
+                        yVal =  parseInt(data);
+                        dps.push({
+                            x: xVal,
+                            y: yVal
+                        });
+                        xVal++;
+                    }
+                    if (dps.length > dataLength) {
+                        dps.shift();
+                    }
                  }
             };
             chart.render();
-            xhttp.open("GET", "readTemperature", true);
+            xhttp.open("GET", "readECG", true);
             xhttp.send();
         };
         updateChart(dataLength); 
