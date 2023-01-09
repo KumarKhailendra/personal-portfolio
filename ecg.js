@@ -62,7 +62,7 @@ script.innerHTML = [
         
         var xVal = 0;
         var yVal = 100;
-        var updateInterval = 1000;
+        var updateInterval = 500;
         var dataLength = 50; // number of dataPoints visible at any point
         
         var updateChart = function (count) {
